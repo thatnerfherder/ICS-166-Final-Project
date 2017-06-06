@@ -78,6 +78,7 @@
     <Compile Include="Assets\GUIVirusEffect\Scripts\Door.cs" />
     <Compile Include="Assets\GUIVirusEffect\Scripts\VirusGUI.cs" />
     <Compile Include="Assets\Tabs.cs" />
+    <Compile Include="Assets\restartScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\GUIVirusEffect\VirusGUI.txt" />
