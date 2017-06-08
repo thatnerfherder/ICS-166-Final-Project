@@ -7,9 +7,9 @@ using UnityEngine.SceneManagement;
 public class Tabs : MonoBehaviour
 {
 
-    public Image[] essay;
-    public Image[] email;
-    public Image[] eee;
+    public Image essay;
+    public Image email;
+    public Image eee;
     public Image restart;
     public Image virusAlert;
     public Image[] error;
@@ -38,9 +38,9 @@ public class Tabs : MonoBehaviour
     {
         if (sceneNumber == 1)
         {
-            essay[0].enabled = true;
-            email[0].enabled = false;
-            eee[0].enabled = false;
+            essay.enabled = true;
+            email.enabled = false;
+            eee.enabled = false;
         }
     }
 
@@ -48,9 +48,9 @@ public class Tabs : MonoBehaviour
     {
         if (sceneNumber == 1)
         {
-            essay[0].enabled = false;
-            email[0].enabled = true;
-            eee[0].enabled = false;
+            essay.enabled = false;
+            email.enabled = true;
+            eee.enabled = false;
         }
     }
 
@@ -58,9 +58,9 @@ public class Tabs : MonoBehaviour
     {
         if (sceneNumber == 1)
         {
-            essay[0].enabled = false;
-            email[0].enabled = false;
-            eee[0].enabled = true;
+            essay.enabled = false;
+            email.enabled = false;
+            eee.enabled = true;
         }
     }
 
@@ -68,9 +68,9 @@ public class Tabs : MonoBehaviour
     {
         if (sceneNumber == 1)
         {
-            essay[0].enabled = false;
-            email[0].enabled = false;
-            eee[0].enabled = false;
+            essay.enabled = false;
+            email.enabled = false;
+            eee.enabled = false;
             restart.enabled = true;
             virusButton.enabled = true;
             virusButton.image.enabled = true;
